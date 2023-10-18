@@ -7,10 +7,11 @@ const routes: Routes = [
   path:'',
   component:LayoutComponent,
   children:[
-    // ./modules/pavangokul/pavangokul.module
+
+    
 			{
 				path:'pavangokul',
-				loadChildren: () => import('./Modules/pavangokul/pavangokul.module').then((m) => m.PavangokulModule),
+				loadChildren: () => import('./modules/pavangokul/pavangokul.module').then((m) => m.PavangokulModule),
 			},
 
     
