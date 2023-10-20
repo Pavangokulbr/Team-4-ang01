@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+/* for 
+tag : name-of-tag;
+id : #name-of-id;
+class : .name-of-class; */
+*{
+    --bg-buff:#eff3f6;
+    --white:#fff;
+    --secondary-blue:#029EFF;
+    --orange:#f89305;
+    --red:#f80505;
+    --grey:#808080;
+    --pers-green:#269d96;
+}
+.body{
+    background-color:var(--bg-buff);
+}
+section#S01{
+    background-color:var(--bg-buff);
+    height: 90svh;
+    margin: 0px;
+    width: 100%; 
+    padding: 40px;
+}
+.side-nav{
+    background-color: var(--white);
+    height: 100%;
+    width: 300px;
+    border-radius: 15px;
+}
+section#S01 .side-nav .head .icon{
+    height: 40px;
+    width: 40px;
+}
+section#S01 .side-nav .head .more{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#S01 .side-nav .head {
+    width: calc(100%-(-40px));
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
