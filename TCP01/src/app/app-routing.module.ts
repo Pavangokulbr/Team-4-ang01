@@ -8,6 +8,11 @@ const routes: Routes = [
   component:LayoutComponent,
   children:[
 
+			{
+				path:'abhi',
+				loadChildren: () => import('./modules/abhi/abhi.module').then((m) => m.AbhiModule),
+			},
+
     
 			{
 				path:'pavangokul',
@@ -23,6 +28,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
 
 
 
