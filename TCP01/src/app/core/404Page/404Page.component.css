@@ -1,0 +1,7 @@
+.layout{
+    display: flex;
+    background-color: var(--t4-secondary);
+    max-width: 100%;
+    color: var(--t4-white);
+}
+

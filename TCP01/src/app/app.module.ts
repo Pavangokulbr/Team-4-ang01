@@ -5,15 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { LayoutComponent } from './core/layout/layout.component';
+import { Page404Component } from './core/404Page/404Page.component';
+import { teamModule } from './modules/team4.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
+    Page404Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    teamModule
   ],
   providers: [],
   bootstrap: [AppComponent]
