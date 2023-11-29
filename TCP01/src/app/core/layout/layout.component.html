@@ -28,15 +28,20 @@
           </ul>
         </li>
         <li>
+          <a routerLink="pavangokul">
           <i class="fa-regular fa-user me-2"></i>Abhishake
+          </a>
           <ul>
           <li class="side-nav-subitem">sum<i class="fa-solid fa-square-root-variable"></i></li>
     
           </ul>
         </li>
         <li>
-          <i class="fa-regular fa-user me-2"></i>PavanGokul
-          <ul>
+          <a routerLink="pavangokul" routerLinkActive="active">
+            <i class="fa-regular fa-user me-2"></i>PavanGokul
+          </a>
+
+            <ul>
           <li class="side-nav-subitem">sum<i class="fa-solid fa-square-root-variable"></i></li>
     
           </ul>
@@ -45,5 +50,6 @@
     </div>
   </div>
   <div class="body">
+<router-outlet></router-outlet> 
   </div>
 </div>

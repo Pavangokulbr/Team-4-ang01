@@ -4,7 +4,13 @@ import { LayoutComponent } from './core/layout/layout.component';
 import { Page404Component } from './core/404Page/404Page.component';
 
 const routes: Routes = [
-  {path:'',component:LayoutComponent},
+  {path:'',component:LayoutComponent,
+  children:[
+  {
+    path:'pavangokul',
+    loadChildren:()=>import('./modules/pavangokul/pavangokul.module').then(m=>m.PavangokulModule),
+  }
+  ]},
   {path:'**',component:Page404Component},
 ];
 

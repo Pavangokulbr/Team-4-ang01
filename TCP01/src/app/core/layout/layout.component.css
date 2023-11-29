@@ -45,3 +45,15 @@
     left: -0.5rem;
     top: -0.8rem;
 }
+a{
+    text-decoration: none;
+    color:var(--t4-white)
+}
+a:hover{
+    text-decoration: none;
+    color:var(--t4-secondary)
+}
+.active{
+    text-decoration: none;
+    color: var(--t4-secondary);
+}

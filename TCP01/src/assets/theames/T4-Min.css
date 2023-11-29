@@ -2,8 +2,10 @@
     --t4-black:#000;
     --t4-white:#fff;
     --t4-grey:#4C5466;
+}
+:root{
     --t4-primary:#0D061A;
     --t4-secondary:#8363A4;
     --t4-success:hwb(115 13% 13%);
-    --t4-success:hwb(0 13% 13%);
+    --t4-danger:hwb(0 13% 13%);
 }
