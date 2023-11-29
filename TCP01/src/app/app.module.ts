@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { LayoutComponent } from './core/layout/layout.component';
+import { Page404Component } from './core/404Page/404Page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
+    Page404Component,
   ],
   imports: [
     BrowserModule,
