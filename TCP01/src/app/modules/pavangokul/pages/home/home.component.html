@@ -1,1 +1,16 @@
-<p>Pavan home works!</p>
+<p [ngClass]="{gokul: !Isfootballer}">{{Name}} home works!</p>
+<button type="button" (click)="Isfootballer=!Isfootballer">Click me to toggle if</button>
+<br>
+
+<button type="button" (click)="gokul.Pushele()">Add member</button>
+<button type="button" (click)="gokul.Popele()">remove member</button>
+<ul>
+    <li *ngFor="let MEMBER of Team4List" >
+    <p [ngStyle]="{'background-color': MEMBER==='pavan'?'red':''}">
+        {{MEMBER}}
+
+    </p>
+    </li>
+</ul>
+
+
