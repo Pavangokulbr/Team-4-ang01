@@ -1,0 +1,24 @@
+.basic{
+    --t4-black:#000;
+    --t4-white:#fff;
+    --t4-grey:#4C5466;
+}
+
+
+.main{
+    /* --t4-primary:#0D061A;
+    --t4-secondary:#8363A4; */
+    --t4-success:hwb(115 13% 13%);
+    --t4-danger:hwb(0 13% 13%);
+}
+
+.theme-main{
+--b-primary:#F72585;
+--b-primary-text-dark:#B5179E;
+--b-primary-text-light:#7209B7;
+--b-secondary:#3A0CA3;
+--b-secondary-light1:#480CA8;
+--b-ref:#4361EE;
+--b-ref-dark:#4895EF;
+--b-ref-light2:#4CC9F0;
+}
