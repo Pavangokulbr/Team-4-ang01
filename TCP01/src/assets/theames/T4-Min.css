@@ -5,7 +5,7 @@
 }
 :root{
     --t4-primary:#0D061A;
-    --t4-secondary:#8363A4;
-    --t4-success:hwb(115 13% 13%);
+    --t4-secondary:#0cdbdb;
+    --t4-success:hwb(140 13% 13%);
     --t4-danger:hwb(0 13% 13%);
 }
